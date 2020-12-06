@@ -1,6 +1,9 @@
 # CI/CD Automation : Ansible and Jenkins
 ![jenkins and ansible](https://justtech.blog/wp-content/uploads/2019/06/jenPyAns.png)
 
+Requires : 
+- _pip3 install ansible_
+
 ## How Ansible works 
 
 ![schema ansible](https://1.cms.s81c.com/sites/default/files/2018-11-22/Ansible_ov.png)
@@ -23,4 +26,8 @@ If you only have one public key file in your local _~/.ssh_ directory, you can o
 ![output ansible](./images/output_ansible_jenkins.PNG)
 
 
-> Note : This work is based on DevOps Project 1 for the basics config.
+## Resources
+
+Note : This work is based on DevOps Project 1 for the basics config.
+> Additional resources from medium blog (inventory, playbooks yaml, vars, cmd...): [link](https://medium.com/faun/ansible-it-automation-part-1-e889d3c13cd4)
+> Additional resources from medium blog : [Accessing Remote Machines Using SSH](https://medium.com/@jakewies/accessing-remote-machines-using-ssh-55a0fdf5e9d8)
